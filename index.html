@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, shrink-to-fit=0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <style type="text/css">
+    body {
+      background: #000000;
+      overflow: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+    canvas {
+      display: block;
+      position: fixed;
+      z-index: -5;
+    }
+    div {
+      margin: 10px;
+      font-weight: 700;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+  <script src="bundle.js" async></script>
+  <script>
+    window.onload = function() {
+      LogoExploder(TEST_SVG, document.getElementById("canvas"))
+    }
+  </script>
+</body>
+</html>
