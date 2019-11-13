@@ -34,6 +34,7 @@ function LogoExploder(svg, canvas) {
 }
 
 module.exports = LogoExploder;
+window["LogoExploder"] = LogoExploder;
 
 function renderSVG(svg, scene) {
 
