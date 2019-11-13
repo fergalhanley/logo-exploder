@@ -1,8 +1,8 @@
 {
   "name": "logo-exploder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Converts a SVG path to a 3D mesh and animates it in an explosion",
-  "main": "dist/logo-exploder.js",
+  "main": "src/index.js",
   "license": "UNLICENSED",
   "author": {
     "name": "Fergal Hanley",
