@@ -32,7 +32,7 @@
     "gl-vec3": "^1.0.3",
     "load-svg": "^1.0.0",
     "mesh-reindex": "^1.0.0",
-    "three": "^0.69.0",
+    "three": "^0.137.0",
     "three-simplicial-complex": "^69.0.6",
     "triangle-centroid": "^1.0.0",
     "tweenr": "^2.1.3",
